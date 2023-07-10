@@ -71,3 +71,9 @@ p {
   padding: 15px 30px;
   border-radius: 4px;
 }
+
+img {
+  width: 75%;
+  height: auto;
+  border-radius: 8px;
+}

@@ -22,6 +22,7 @@ h6 {
 
 h1 {
   font-size: 96px;
+  line-height: 1.5px;
 }
 
 h2 {
@@ -76,4 +77,22 @@ img {
   width: 75%;
   height: auto;
   border-radius: 8px;
+}
+
+.project-description {
+  padding: 120px 6px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 42px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }

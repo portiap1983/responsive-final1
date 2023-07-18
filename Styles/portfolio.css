@@ -35,6 +35,10 @@ p {
   line-height: 30px;
 }
 
+.best {
+  font-size: 40px;
+}
+
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -79,7 +83,12 @@ img {
 }
 
 .project-description {
-  padding: 120px 6px;
+  padding: 40px 6px;
+}
+
+.project-section {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 @media (max-width: 900px) {

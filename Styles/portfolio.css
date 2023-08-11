@@ -28,6 +28,12 @@ h2 {
   font-size: 64px;
 }
 
+h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-top: 12.5%;
+}
+
 p {
   font-family: var(--default-font-family);
   font-weight: normal;
@@ -42,7 +48,7 @@ p {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -59,7 +65,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px;
 }
 
 .content h1 {
@@ -184,6 +190,10 @@ footer .social-links a:hover {
 
   h2 {
     font-size: 42px;
+  }
+
+  h3 {
+    font-size: 16px;
   }
 
   .content {
